@@ -1,6 +1,19 @@
 package gui.view;
 
-public class GUIPanel
-{
+import javax.swing.*;
+import gui.controller.GUIController;
 
+public class GUIPanel extends JPanel
+{
+	private GUIController appController;
+	
+	public GUIPanel(GUIController appController)
+	{
+		super();
+		
+		this.appController = appController;
+		
+	}
+	
+	
 }
