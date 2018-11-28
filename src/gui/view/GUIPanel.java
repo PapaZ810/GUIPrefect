@@ -40,10 +40,10 @@ public class GUIPanel extends JPanel
 	
 	private void setupListeners()
 	{
-		colorButton.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent mouseClick){changeBackgroundColor();}});
+		colorButton.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent mouseClick){changeBackgroundColor();}});//called here the color is changed on button press
 	}
 	
-	private void changeBackgroundColor()
+	private void changeBackgroundColor() // this gets a random color and changes the label text
 	{
 		int red = (int) (Math.random() * 256);
 		int blue = (int) (Math.random() * 256);
