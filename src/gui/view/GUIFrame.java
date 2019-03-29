@@ -21,7 +21,7 @@ public class GUIFrame extends JFrame
 	private void setupFrame()
 	{
 		this.setContentPane(appPanel);
-		this.setTitle("GUILMAO");
+		this.setTitle("GUIYeet");
 		this.setSize(1000, 500);
 		this.setResizable(false);
 		this.setVisible(true);
